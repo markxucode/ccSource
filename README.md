@@ -1,36 +1,10 @@
 # Claude Code Source Snapshot for Security Research
 
-> This repository mirrors a **publicly exposed Claude Code source snapshot** that became accessible on **March 31, 2026** through a source map exposure in the npm distribution. It is maintained for **educational, defensive security research, and software supply-chain analysis**.
+> This repository mirrors a **publicly Claude Code source snapshot** that became accessible on **March 31, 2026**.
 
 ---
-
-## Research Context
-
-This repository is maintained by a **university student** studying:
-
-- software supply-chain exposure and build artifact leaks
-- secure software engineering practices
-- agentic developer tooling architecture
-- defensive analysis of real-world CLI systems
-
-This archive is intended to support:
-
-- educational study
-- security research practice
-- architecture review
-- discussion of packaging and release-process failures
 
 It does **not** claim ownership of the original code, and it should not be interpreted as an official Anthropic repository.
-
----
-
-## How the Public Snapshot Became Accessible
-
-Claude Code source material was reachable through a `.map` file exposed in the npm package:
-
-> **"Claude code source code has been leaked via a map file in their npm registry!"**
-
-The published source map referenced unobfuscated TypeScript sources hosted in Anthropic's R2 storage bucket, which made the `src/` snapshot publicly downloadable.
 
 ---
 
@@ -40,7 +14,7 @@ Claude Code is Anthropic's CLI for interacting with Claude from the terminal to 
 
 This repository contains a mirrored `src/` snapshot for research and analysis.
 
-- **Public exposure identified on**: 2026-03-31
+- **Public identified on**: 2026-03-31
 - **Language**: TypeScript
 - **Runtime**: Bun
 - **Scale**: ~1,900 files, 512,000+ lines of code
@@ -271,7 +245,5 @@ Built-in and third-party plugins are loaded through the `plugins/` subsystem.
 
 ## Research / Ownership Disclaimer
 
-- This repository is an **educational and defensive security research archive** maintained by a university student.
-- It exists to study source exposure, packaging failures, and the architecture of modern agentic CLI systems.
 - The original Claude Code source remains the property of **Anthropic**.
 - This repository is **not affiliated with, endorsed by, or maintained by Anthropic**.
