@@ -1,6 +1,6 @@
-# Claude Code Source Snapshot for Security Research
+# cc Source Snapshot for Security Research
 
-> This repository mirrors a **publicly Claude Code source snapshot** that became accessible on **March 31, 2026**.
+> This repository mirrors a **publicly cc source snapshot** that became accessible on **March 31, 2026**.
 
 ---
 
